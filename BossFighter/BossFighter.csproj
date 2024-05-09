@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon></PackageIcon>
+    <ApplicationIcon>bonfire_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Attack.png" />
+    <None Remove="Demon.png" />
+    <None Remove="Heal.png" />
+    <None Remove="Menu.png" />
+    <None Remove="Obrazky\Chaos_Eater.png" />
+    <None Remove="Obrazky\Jailer.png" />
+    <None Remove="Obrazky\Lose.jpg" />
+    <None Remove="Obrazky\Storm_Ruler.png" />
+    <None Remove="Obrazky\Win.png" />
+    <None Remove="Obrazky\yhorm.jpg" />
+    <None Remove="Player.jpg" />
+    <None Remove="Spell.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bonfire_icon.ico" />
+    <Content Include="Obrazky\Attack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Chaos_Eater.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Demon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Heal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Jailer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Lose.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Player.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Spell.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Storm_Ruler.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\Win.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Obrazky\yhorm.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Roman-Numerals" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

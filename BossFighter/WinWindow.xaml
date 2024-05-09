@@ -1,0 +1,15 @@
+﻿<Window x:Class="BossFighter.WinWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BossFighter"
+        mc:Ignorable="d"
+        Title="WinWindow" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#372C10">
+        <Image Source="Obrazky\Win.png"/>
+        <TextBlock Text="YOU WIN" HorizontalAlignment="Center" FontSize="45" FontFamily="Italic" Foreground="White"/>
+        <TextBlock Text="PRAISE THE SUN MY FRIEND" HorizontalAlignment="Center" FontSize="45" FontFamily="Italic"
+                   Foreground="White" Margin="0,350,0,0"/>
+    </Grid>
+</Window>
